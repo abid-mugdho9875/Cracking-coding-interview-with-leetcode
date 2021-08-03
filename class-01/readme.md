@@ -25,13 +25,11 @@ The first element is an integer, the second a string and the third is an list of
 Example:
 Question | Output
 ------------ | -------------
-import array
-  
-sample_array = array.array('i', [1, 2, 3])  | 1
-                                             |2
-# accessing elements of array                |3
-for i in sample_array:
-     print(i)
+import array |
+sample_array = array.array('i', [1, 2, 3])  | 1               
+for i in sample_array:                      |2
+    print(i)                                |3
+     
 
 
                
