@@ -70,6 +70,10 @@ There are three types of analysis that we perform on a particular algorithm.
     - This notation describes both upper bound and lower bound of an algorithm so we can say that it defines exact asymptotic behaviour. In the real case scenario the algorithm not always run on best and worst cases, the average running time lies between best and worst and can be represented by the theta notation.
 
 ![theta](images\theta-notation.jpg)
+
+## Two Pointer Algorithum
+Two Pointer Technique uses two-pointer in one loop over the given data structure. It is commonly used for solving array, string, linked list coding problems.Two pointers is really an easy and effective technique which is typically used for searching pairs in a sorted array.
+
     
      
 
