@@ -74,6 +74,9 @@ There are three types of analysis that we perform on a particular algorithm.
 ## Two Pointer Algorithum
 Two Pointer Technique uses two-pointer in one loop over the given data structure. It is commonly used for solving array, string, linked list coding problems.Two pointers is really an easy and effective technique which is typically used for searching pairs in a sorted array.
 
+## Assignment:
+ 1.Leetcode two sum problem solution
+ - [solution](https://github.com/abid-mugdho9875/Cracking-coding-interview-with-leetcode/blob/main/class-01/Two-Sum)
     
      
 
