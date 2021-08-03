@@ -40,15 +40,14 @@ There are three types of analysis that we perform on a particular algorithm.
 - Average Case: In which we analyse the performance of an algorithm for the input, for which the algorithm takes time or space that lies between best and worst case.
 
 ##  Types of Data Structure Asymptotic Notation
-    1. Big-O Notation (Ο) – Big O notation specifically describes worst case scenario.
+### 1. Big-O Notation (Ο) – 
+      Big O notation specifically describes worst case scenario.
       (i) O(1):Big O notation O(1) represents the complexity of an algorithm that always execute in same time or space regardless of the input data.
       Exapmle :- Accessing array index(int num = arr[5])
 
       (ii)O(n):Big O notation O(N) represents the complexity of an algorithm, whose performance will grow linearly (in direct proportion) to the size of the input data. 
       Example:- The execution time will depend on the size of array. When the size of the array increases, the execution time will also increase in the same proportion (linearly)
        Traversing an array 
-
-
       (iii)O(n^2):Big O notation O(n^2) represents the complexity of an algorithm, whose performance is directly proportional to the square of the size of the input data.
         Exapmle:- Traversing a 2D array
 
@@ -60,12 +59,14 @@ There are three types of analysis that we perform on a particular algorithm.
 
     ![Big 0](I:\Cracking-coding-interview-with-leetcode\class-01\images\Big_O_Notation)
 
-    2. Omega Notation (Ω) – Omega(Ω) notation specifically describes best case scenario
+### 2. Omega Notation (Ω) – 
+      Omega(Ω) notation specifically describes best case                       scenario
 
     -  Omega notation specifically describes best case scenario. It represents the lower bound running time complexity of an algorithm. So if we represent a complexity of an algorithm in Omega notation, it means that the algorithm cannot be completed in less time than this, it would at-least take the time represented by Omega notation or it can take more (when not in best case scenario).
 
     ![GitHub Logo](/images/logo.png)
-    3. Theta Notation (θ) – This notation represents the average complexity of an algorithm.
+### 3. Theta Notation (θ) – 
+     This notation represents the average complexity of an algorithm.
 
     - This notation describes both upper bound and lower bound of an algorithm so we can say that it defines exact asymptotic behaviour. In the real case scenario the algorithm not always run on best and worst cases, the average running time lies between best and worst and can be represented by the theta notation.
 
