@@ -20,4 +20,19 @@ Question | Output
 sample_list = [1,"Yash",['a','e']]|
 print(sample_list)                | [1, 'Yash', ['a', 'e']]
 
+The first element is an integer, the second a string and the third is an list of characters.
+
+- Array:An array is a vector containing homogeneous elements i.e. belonging to the same data type. Elements are allocated with contiguous memory locations allowing easy modification, that is, addition, deletion, accessing of elements. In Python, we have to use the array module to declare arrays. If the elements of an array belong to different data types, an exception “Incompatible data types” is thrown.
+Example:
+Question | Output
+------------ | -------------
+import array
+  
+sample_array = array.array('i', [1, 2, 3])  | 1
+                                             |2
+# accessing elements of array                |3
+for i in sample_array:
+     print(i)
+
+
                
