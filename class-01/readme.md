@@ -63,13 +63,13 @@ There are three types of analysis that we perform on a particular algorithm.
       Omega(Ω) notation specifically describes best case                       scenario
 
     -  Omega notation specifically describes best case scenario. It represents the lower bound running time complexity of an algorithm. So if we represent a complexity of an algorithm in Omega notation, it means that the algorithm cannot be completed in less time than this, it would at-least take the time represented by Omega notation or it can take more (when not in best case scenario).
-![](images/omega_notation.jpg)
+![omega](images\omega_notation.jpg)
 ### 3. Theta Notation (θ) – 
      This notation represents the average complexity of an algorithm.
 
     - This notation describes both upper bound and lower bound of an algorithm so we can say that it defines exact asymptotic behaviour. In the real case scenario the algorithm not always run on best and worst cases, the average running time lies between best and worst and can be represented by the theta notation.
 
-![](images/theta-notation.jpg)
+![theta](images\theta-notation.jpg)
     
      
 
