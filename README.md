@@ -1,8 +1,4 @@
 # Cracking-coding-interview-with-leetcode
-What is an Algorithm?
-- An algorithm is a set of instructions for solving a problem or accomplishing a task.
+This is the bootcamp which help me to understand the competitive problem solving.and also clear the knowledge of data structure.
+## List Of Classes and Link
 
-What is Data Structure?
-- Data Structure is a way of collecting and organising data in such a way that we can perform operations on these data in an effective way.
-
-Basic Data Structure Discussion 1. Array 2. List in Python
