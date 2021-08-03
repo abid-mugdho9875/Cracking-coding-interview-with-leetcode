@@ -18,6 +18,6 @@ A list is a data structure in Python that is a mutable, or changeable, ordered s
 Question | Output
 ------------ | -------------
 sample_list = [1,"Yash",['a','e']]|
-print(sample_list)                  [1, 'Yash', ['a', 'e']]
+print(sample_list)                | [1, 'Yash', ['a', 'e']]
 
                
