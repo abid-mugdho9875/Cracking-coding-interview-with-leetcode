@@ -3,5 +3,5 @@ This is the bootcamp which help me to understand the competitive problem solving
 ## List Of Classes and Link
 
 ### 17.07.2021
-    [GitHub](http://github.com)
+- [GitHub](http://github.com)
 
