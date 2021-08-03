@@ -3,5 +3,5 @@ This is the bootcamp which help me to understand the competitive problem solving
 ## List Of Classes and Link
 
 ### 17.07.2021
-    [class01](https://github.com/abid-mugdho9875/Cracking-coding-interview-with-leetcode/tree/main/class-01)
+    [GitHub](http://github.com)
 
