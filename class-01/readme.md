@@ -58,7 +58,7 @@ There are three types of analysis that we perform on a particular algorithm.
         The performance of an algorithum:-
         O(1) < O(log n) < O (n) < O(n log n) < O(n^2) < O (n^3)< O(2^n) < O(n!)
 
-        ![Alt Text](https://beginnersbook.com/wp-content/uploads/2018/10/Big_O_Notation.jpg)
+    ![Big 0](https://beginnersbook.com/wp-content/uploads/2018/10/Big_O_Notation.jpg)
 
     2. Omega Notation (Ω) – Omega(Ω) notation specifically describes best case scenario
 
