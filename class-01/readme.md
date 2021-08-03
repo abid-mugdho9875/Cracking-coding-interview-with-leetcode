@@ -56,21 +56,20 @@ There are three types of analysis that we perform on a particular algorithm.
 
         The performance of an algorithum:-
         O(1) < O(log n) < O (n) < O(n log n) < O(n^2) < O (n^3)< O(2^n) < O(n!)
-
-
+![](images/Big_O_Notation.jpg)
 
 ### 2. Omega Notation (Ω) – 
       Omega(Ω) notation specifically describes best case                       scenario
 
     -  Omega notation specifically describes best case scenario. It represents the lower bound running time complexity of an algorithm. So if we represent a complexity of an algorithm in Omega notation, it means that the algorithm cannot be completed in less time than this, it would at-least take the time represented by Omega notation or it can take more (when not in best case scenario).
-    
-![](images/Big_O_Notation.jpg)
+![](images/omega_notation.jpg)
+
 ### 3. Theta Notation (θ) – 
      This notation represents the average complexity of an algorithm.
 
     - This notation describes both upper bound and lower bound of an algorithm so we can say that it defines exact asymptotic behaviour. In the real case scenario the algorithm not always run on best and worst cases, the average running time lies between best and worst and can be represented by the theta notation.
 
-
+![](images/theta-notation.jpg)
 
 ## Two Pointer Algorithum
 Two Pointer Technique uses two-pointer in one loop over the given data structure. It is commonly used for solving array, string, linked list coding problems.Two pointers is really an easy and effective technique which is typically used for searching pairs in a sorted array.
