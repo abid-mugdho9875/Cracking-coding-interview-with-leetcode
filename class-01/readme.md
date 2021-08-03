@@ -27,9 +27,9 @@ Example:
 Question | Output
 ------------ | -------------
 import array |  
-sample_array = array.array('i', [1, 2, 3])  | 1               
+sample_array = array.array('i', [1, 2, 3])  |1               
 for i in sample_array:                      |2
-    print(i)                                |3
+print(i)                                    |3
      
 
 
