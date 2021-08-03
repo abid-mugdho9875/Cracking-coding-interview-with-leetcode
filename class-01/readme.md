@@ -14,7 +14,8 @@ A list is a data structure in Python that is a mutable, or changeable, ordered s
 
 - List:A list in Python is a collection of items which can contain elements of multiple data types, which may be either numeric, character logical values, etc. It is an ordered collection supporting negative indexing. A list can be created using [] containing data values.
     Example:-
-     First Header | Second Header
+    
+First Header | Second Header
 ------------ | -------------
 Content from cell 1 | Content from cell 2
 Content in the first column | Content in the second column                
