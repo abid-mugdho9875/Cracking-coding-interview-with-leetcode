@@ -31,3 +31,14 @@ pos = {head: 0};
         head = head.next
     
     return 0
+2.Delete duplicate from linkedlist
+
+def removeDuplicates(llist):
+    # Write your code here
+    temp = llist
+    while temp.next!=None:
+        if temp.data == temp.next.data:
+            temp.next = temp.next.next
+        else:
+            temp = temp.next
+    return llist
