@@ -1,0 +1,14 @@
+1.Cycle detection in linkedlist 
+## Using Two pointer
+def has_cycle(head):
+
+    slow = fast = head
+    while fast!=None and fast.next!=None:
+    #increase the slow and fast value
+          slow = slow.next
+          fast = fast.next.next
+    #Check the condition
+          if slow == fast:
+            return True
+    return False
+    
