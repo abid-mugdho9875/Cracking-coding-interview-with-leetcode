@@ -1,0 +1,17 @@
+class Solution:
+    def myPow(self, x: float, n: int) -> float:
+        ans = self.find(x, abs(n))
+        if n < 0:
+            return 1/ans 
+        else:
+            return ans
+    def find(self, x, n):
+        if n == 0:
+            return 1
+        elif x == 0:
+            return 0
+        res = self.find(x, n//2)
+        if (n%2 == 0):
+            return res * res
+        elif (n%2 ==1 ):
+            return res*res*x
