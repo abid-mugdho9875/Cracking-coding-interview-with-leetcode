@@ -15,3 +15,33 @@ class Solution:
             return res * res
         elif (n%2 ==1 ):
             return res*res*x
+# I
+def myPow(self, x, n):
+    if n == 0:
+        return 1
+    if n < 0:
+        return 1.0/self.myPow(x, -n)
+    if n & 1:
+        return self.myPow(x, n/2) ** 2 * x
+    else:
+        return self.myPow(x, n/2) ** 2
+
+# II
+def myPow(self, x, n):
+    if n == 0:
+        return 1
+    if n < 0:
+        return 1.0/self.myPow(x, -n)
+    if n & 1:
+        return self.myPow(x*x, n/2) * x
+    else:
+        return self.myPow(x*x, n/2)
+# III
+def myPow(self, x, n):
+    if not n:
+        return 1
+    if n < 0:
+        return 1 / self.myPow(x, -n)
+    if n % 2:
+        return x * self.myPow(x, n-1)
+    return self.myPow(x*x, n/2)
