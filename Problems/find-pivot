@@ -9,3 +9,12 @@ class Solution:
                 return i
             sum_left +=  nums[i]
         return - 1
+//Running sum of 1+d array 
+
+class Solution:
+    def runningSum(self, nums: List[int]) -> List[int]:
+        sum = 0
+        for i in range(len(nums)):
+            sum += nums[i]
+            nums[i] = sum
+        return nums
