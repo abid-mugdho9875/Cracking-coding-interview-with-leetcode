@@ -1,0 +1,45 @@
+// Sqrt function using python simple code
+class Solution:
+	def mySqrt(self, x):
+		return int((x ** 0.5) // 1);
+// python binary seacrh 
+class Solution:
+    def mySqrt(self, x: int) -> int: 
+        // Edge case
+        if x == 0 or x == 1: 
+            return x
+        
+        high = x 
+        low = 0 
+        
+		// Binary search
+        while low <= high:
+            mid = (high + low) // 2 
+            squared = mid * mid 
+            if squared <= x: 
+                low = mid + 1
+            elif squared >= x: 
+                high = mid - 1
+            else:
+                return mid
+        return high
+        // Newtonian method 
+        def mySqrt(self, x: int) -> int:
+        previous = x
+        while x != 0:
+            current = (previous + x/previous) / 2
+            if(int(current) == int(previous)):
+                return int(current)
+            else:
+                previous = current
+        return 0
+        // simple thinking 
+        def mySqrt(self, x: int) -> int:
+         i = 1
+         sqr = i * i
+         while sqr <= x:
+                if ((i+1)*(i+1) > x):
+                    return i
+                else:
+                    i += 1
+         return 0
